@@ -58,8 +58,8 @@
 - 링크는 검색 결과에 실제로 나온 **개별 기사 URL**만 쓴다. 홈페이지, 목록 페이지, 위키, 유튜브, 블로그, 커뮤니티 글은 쓰지 않는다. URL을 추측해서 만들지 않는다.
 
 ## 6. 커밋
-- 브랜치: `claude/morning-news-briefing-ld3gsq`
-- 작업 전에 `git fetch origin claude/morning-news-briefing-ld3gsq && git checkout -B claude/morning-news-briefing-ld3gsq origin/claude/morning-news-briefing-ld3gsq`로 최신 상태를 받는다.
+- 브랜치: `claude/morning-news-briefing`
+- 작업 전에 `git fetch origin claude/morning-news-briefing && git checkout -B claude/morning-news-briefing origin/claude/morning-news-briefing`로 최신 상태를 받는다.
 - `briefings/README.md` 인덱스의 목록 맨 위에 `- [YYYY-MM-DD](YYYY/YYYY-MM-DD.md) — <오늘의 한 줄>`을 추가한다.
 - 커밋 메시지: `briefing: YYYY-MM-DD 아침 뉴스 10선`
-- `git push -u origin claude/morning-news-briefing-ld3gsq`로 푸시한다. 네트워크 오류가 나면 2s, 4s, 8s, 16s 간격으로 재시도한다.
+- `git push -u origin claude/morning-news-briefing`로 푸시한다. 네트워크 오류가 나면 2s, 4s, 8s, 16s 간격으로 재시도한다.
