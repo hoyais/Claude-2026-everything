@@ -5,4 +5,4 @@
 
 - 생성 사양: [BRIEFING_SPEC.md](BRIEFING_SPEC.md)
 - 아카이브: [briefings/](briefings/README.md)
-- 실행: Claude Code Routine (매일 07:52 KST에 새 세션으로 실행. Routine 프롬프트는 `ROUTINE_PROMPT.md` 참고)
+- 실행: Claude Code Routine (매일 07:52 KST 정식 실행, 08:52 KST 재시도). 뉴스는 `scripts/collect_rss.py`로 언론사 RSS에서 모으고 검색으로 보충한다. 상세는 `ROUTINE_PROMPT.md` 참고
